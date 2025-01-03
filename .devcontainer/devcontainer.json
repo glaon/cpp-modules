@@ -25,10 +25,8 @@
 			"username": "root"
 		},
 		"ghcr.io/lukewiwa/features/shellcheck:0": {},
-		"features": {
-			"ghcr.io/devcontainers-community/features/llvm": {
-				"version": "19"
-			}
+		"ghcr.io/devcontainers-community/features/llvm": {
+			"version": "19"
 		}
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
