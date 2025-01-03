@@ -23,7 +23,8 @@
 			"plugins": "ssh-agent npm",
 			"omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions",
 			"username": "root"
-		}
+		},
+		"ghcr.io/lukewiwa/features/shellcheck:0": {}
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
