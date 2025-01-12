@@ -1,6 +1,6 @@
 import math;
 import factory;
-#include <iostream>
+import std.compat;
 
 int main() {
     // Using math module
@@ -14,9 +14,6 @@ int main() {
     std::cout << "\nFactory pattern demo:\n";
     auto productA = Factory::createProduct(Factory::ProductType::A);
     auto productB = Factory::createProduct(Factory::ProductType::B);
-
-    std::cout << "Created: " << productA->getName() << '\n';
-    std::cout << "Created: " << productB->getName() << '\n';
 
     return 0;
 }

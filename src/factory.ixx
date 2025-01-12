@@ -1,7 +1,7 @@
 module;
+
 #include <string>
 #include <memory>
-
 export module factory;
 
 export class Product {

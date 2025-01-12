@@ -16,7 +16,7 @@
 		},
 		"ghcr.io/devcontainers-contrib/features/apt-packages:1": {
 			"packages": [
-				"lsb-release", "wget", "software-properties-common", "gnupg", "ccache", "cmake", "ninja-build"
+				"lsb-release", "wget", "software-properties-common", "gnupg", "ccache", "cmake", "ninja-build", "ccache"
 			]
 		},
 		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
