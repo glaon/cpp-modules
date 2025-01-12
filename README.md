@@ -14,7 +14,7 @@ in the root of the repo.
 
 # cpp-modules
 
-Test Repo to test the state of the cpp-modules feature.
+Test Repo to check the state of the cpp-modules feature.
 
 Current state with clang 19:
 

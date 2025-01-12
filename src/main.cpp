@@ -1,6 +1,7 @@
 import math;
 import factory;
 import std.compat;
+import std;
 
 int main() {
     // Using math module
@@ -14,6 +15,12 @@ int main() {
     std::cout << "\nFactory pattern demo:\n";
     auto productA = Factory::createProduct(Factory::ProductType::A);
     auto productB = Factory::createProduct(Factory::ProductType::B);
+
+    // Using nan / NAN  does not work with modules
+    const double nanValue = std::nan("nan");
+    const double nonNanValue = 1.0;
+    std::cout << "Nan value: " << nanValue << '\n';
+    std::cout << "Non-nan value: " << nonNanValue << '\n';
 
     return 0;
 }

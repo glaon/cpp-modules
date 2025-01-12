@@ -32,8 +32,8 @@ target_sources(math_module
 )
 
 add_executable(main)
-add_dependencies(main std.compat)
-target_link_libraries(main std.compat math_module)
+add_dependencies(main std.compat std)
+target_link_libraries(main std.compat std math_module)
 target_sources(main
   PRIVATE
     src/main.cpp
