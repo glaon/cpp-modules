@@ -17,7 +17,7 @@ int main() {
     auto productB = Factory::createProduct(Factory::ProductType::B);
 
     // Using nan / NAN  does not work with modules
-    const double nanValue = std::nan("nan");
+    const double nanValue = std::nan("nan") * 1.0;
     const double nonNanValue = 1.0;
     std::cout << "Nan value: " << nanValue << '\n';
     std::cout << "Non-nan value: " << nonNanValue << '\n';
